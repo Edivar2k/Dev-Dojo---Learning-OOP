@@ -11,14 +11,19 @@ public class jogadorTeste3 {
         Time time = new Time("Brasil");
         Time time5 = new Time("Argentina");
 
+        jogador1.setTime(time);
+        jogador.setTime(time);
+        jogador2.setTime(time5);
 
         
 
         System.out.println("jogadores");
         jogador.imprimi();
         jogador1.imprimi();
+        jogador2.imprimi();
         System.out.println();
         System.out.println("time");
         time.imprimir();
+        time5.imprimir();
     }
 }
